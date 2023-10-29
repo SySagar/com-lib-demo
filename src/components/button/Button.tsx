@@ -9,7 +9,7 @@ const Button = ({ variant, ...props }:ButtonProps) => {
         const propStyle = props.style ?? {};
         if (props.disabled) return propStyle;
         if (variant === 'primary') return { borderColor: '#232946', backgroundColor: '#232946', color: '#fffffe', ...propStyle };
-        if (variant === 'secondary') return { borderColor: '#232946', backgroundColor: '#fffffe', color: '#232946', ...propStyle };
+        if (variant === 'secondary') return { borderColor: '#232946', backgroundColor: '#fffffe', color: '#232946',fontWeight:'700', ...propStyle };
         return propStyle;
       };
   

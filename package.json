@@ -12,7 +12,11 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "jest":"jest --watchAll --verbose"
+  },
+  "jest":{
+    "testEnvironment":"jsdom"
   },
   "author": "",
   "license": "ISC",
