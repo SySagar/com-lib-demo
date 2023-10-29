@@ -8,8 +8,8 @@ const Button = ({ variant, ...props }:ButtonProps) => {
     const styles = () => {
         const propStyle = props.style ?? {};
         if (props.disabled) return propStyle;
-        if (variant === 'primary') return { borderColor: '#6366F1', backgroundColor: '#6366F1', color: '#FAFAFA', ...propStyle };
-        if (variant === 'secondary') return { borderColor: '#6366F1', backgroundColor: '#FAFAFA', color: '#6366F1', ...propStyle };
+        if (variant === 'primary') return { borderColor: '#232946', backgroundColor: '#232946', color: '#fffffe', ...propStyle };
+        if (variant === 'secondary') return { borderColor: '#232946', backgroundColor: '#fffffe', color: '#232946', ...propStyle };
         return propStyle;
       };
   
